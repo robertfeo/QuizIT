@@ -31,3 +31,5 @@ password: The users password (at least 6 charactera)
 Additional return values:
 
 token: a unique id used for all further communication with the server
+
+Source: https://www2.hs-esslingen.de/~melcher/internet-technologien/quiz/
