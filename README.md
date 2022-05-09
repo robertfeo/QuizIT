@@ -6,7 +6,7 @@ The server remerbers the actual topic, chapter and progress and the user can lat
 
 The username and password combination is stored at first login an henceforth required to get a token, which is the credential of the user at further communications
 
-Server Communication
+## Server Communication
 Communication with the server uses the request-response principle:
 
 a client sends a request to the server with the address of this page.
@@ -18,12 +18,12 @@ Furthermore each response contains a status parameter with the value of ok at su
 
 To simulate real life situations, the server answer is delayed...
 
-Logging in
+## Logging in
 To log in, the client sends a login to the server. If the username is unknown, the server creates a new user with that name. Login returns a token which is to be used at all further communication.
 
 Zu Beginn eines Spiels sendet der Client einen newgame-Request und erhält eine Identifikation (gameid) zurück, mit der er sich bei der weitern Kommunikation auf das Spiel berufen kann.
 
-Parameter
+### Parameter
 login Parameter:
 
 userid: The user name (at least 6 characters)
